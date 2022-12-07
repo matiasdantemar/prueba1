@@ -1,0 +1,162 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/** Inicio footer */
+.container-footer{
+    background-color: rgb(33, 37, 41);
+}
+
+.name-footer{
+    margin: 25px 0px 8px 0px;
+    color: rgb(200,200,200);
+    font-size: 17px;
+}
+
+.social-right{
+    display: inline;
+    text-align: right;
+}
+.social{
+    margin:15px 6px 15px 0px;
+	width: 25px;  
+}
+
+.but_login{
+    margin: 12px 0px 12px 0px;
+    padding: 4px 10px 4px 10px;
+    border: solid #198241 1px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #198241; 
+    background-color: transparent;
+}
+
+/** Inicio header */
+.perfil-usuario{
+    margin: 10px 0px 0px 0px;
+    border-radius: 26px 26px 26px 26px;
+    border: 1px solid #dadada;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 635px;
+    max-width: 98.5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.perfil-usuario img {
+    width: 100%;
+}
+
+.contenedor-perfil {
+
+    /*max-width: 1280px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perfil-usuario .contenedor-perfil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.perfil-usuario .portada-perfil {
+    border-radius: 25px 25px 0px 0px;
+    background-image: url('https://romy-prod-uploads.sfo3.digitaloceanspaces.com/2020/07/4af6a81dace8ffd46294e0f4d832f42c.jpg');
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 450px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.perfil-usuario .avatar-perfil {
+    display: block;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: -50px;
+    left: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #6c6c6c;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, .2);
+}
+
+.perfil-usuario .cambiar-foto {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*justify-content: cente; */
+    background-color: rgba(0, 0, 0, .5);
+    height: 57%;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: all ease-in 200ms;
+}
+
+.perfil-usuario .cambiar-foto .fa-camera {
+    margin-bottom: .5rem;
+    font-size: 25px;
+}
+
+.perfil-usuario .avatar-perfil:hover .cambiar-foto {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.bot-editar{
+    padding: 20px 0px 12px 150px;
+    border: none;
+    background: none;
+    font-size: 13px;
+}
+
+.text-perfil{
+    padding-left: 15px;
+}
+
+.logo1{
+    max-width: 70%;
+    max-height: auto;
+    display: inline;
+}
+
+p {
+    line-height:40%;
+}
+
+.info{
+
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
